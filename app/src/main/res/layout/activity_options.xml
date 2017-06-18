@@ -67,6 +67,12 @@
         android:layout_toRightOf="@id/ibtn4"
         android:layout_marginTop="20dp"
         />
+    <SeekBar
+        android:id="@+id/sb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ibtn1"
+        />
 
 
 
