@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3"
+    tools:context="com.example.myapplication.MainActivity">
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_settings_music1"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/ibtn3"
+        android:layout_toEndOf="@+id/ibtn3"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp" />
+    <ImageView
+        android:id="@+id/iv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_settings_difficulty"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="70dp"/>
+
+   <ImageButton
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="90dp"
+       android:layout_marginLeft="70dp"
+       android:src="@drawable/btn_settings_on1"
+       android:id="@+id/ibtn1"
+       />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ibtn2"
+        android:src="@drawable/btn_settings_off1"
+        android:layout_toRightOf="@id/ibtn1"
+        android:layout_marginTop="90dp"
+        />
+    <ImageButton
+        android:id="@+id/ibtn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ibtn1"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="120dp"
+        />
+
+
+
+</RelativeLayout>
