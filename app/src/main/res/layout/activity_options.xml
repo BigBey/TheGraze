@@ -47,9 +47,15 @@
         android:id="@+id/ibtn3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/ibtn1"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="120dp"
+        android:layout_below="@id/iv2"
+       android:src=""
+        />
+    <ImageButton
+        android:id="@+id/ibtn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv2"
+        android:layout_toRightOf="@id/ibtn3"
         />
 
 
